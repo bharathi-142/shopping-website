@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shopping Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        h2, h3 {
+            color: #4CAF50;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 200px;
+        }
+
+        button {
+            padding: 8px 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #ddd;
+            margin: 5px 0;
+            padding: 8px;
+            width: 150px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .product-box {
+            width: 100px;
+            height: 100px;
+            background-color: #bbb;
+            display: inline-block;
+            line-height: 100px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Shopping Site</h1>
+    <p>Welcome to our online store!</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="categories.html">Categories</a>
+    <a href="cart.html">Cart</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+    <!-- Search -->
+    <h3>Search Products</h3>
+    <input type="text" placeholder="Search here">
+    <button>Search</button>
+
+    <!-- Categories -->
+    <h2>Categories</h2>
+    <ul>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Kids</li>
+        <li>Electronics</li>
+    </ul>
+
+    <!-- Products -->
+    <h2>Featured Products</h2>
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Buy</th>
+        </tr>
+
+        <tr>
+            <td>T-Shirt</td>
+            <td>₹499</td>
+            <td><button>Buy Now</button></td>
+        </tr>
+
+        <tr>
+            <td>Dress</td>
+            <td>₹899</td>
+            <td><button>Buy Now</button></td>
+        </tr>
+
+        <tr>
+            <td>Mobile</td>
+            <td>₹12,999</td>
+            <td><button>Buy Now</button></td>
+        </tr>
+
+    </table>
+
+</div>
+
+<footer>
+    <h3>Contact Us</h3>
+    <p>Email: shop@gmail.com</p>
+    <p>Phone: 9876543210</p>
+    <p>© 2026 My Shopping Site</p>
+</footer>
+
+</body>
+</html>
